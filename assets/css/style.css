@@ -179,3 +179,27 @@ nav ul {
 .support-card img {
   width: 60%;
 }
+
+/*==================== Footer Section ====================*/
+.footer-section {
+  margin-top: 10rem;
+  padding: 3rem 20rem;
+  width: 100%;
+  background-color: #efefefef;
+  text-align: center;
+}
+.footer-section p {
+  margin-bottom: 0.5rem;
+  text-transform: capitalize;
+}
+.footer-section .logo-mart {
+  text-transform: uppercase;
+  color: var(--color-primary);
+}
+.footer-section .footer-designer {
+  text-transform: capitalize;
+}
+.footer-section .footer-designer a {
+  text-decoration: underline;
+  font-size: 1rem;
+}

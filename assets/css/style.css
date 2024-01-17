@@ -69,6 +69,7 @@ button {
 /* ================== Header Style ==================== */
 header {
   padding: 0rem 20rem;
+  width: 100%;
 }
 nav {
   display: flex;
@@ -89,6 +90,7 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   height: 80vh;
+  width: 100%;
 }
 
 .hero-text-container,
@@ -101,4 +103,39 @@ nav ul {
   justify-content: flex-start;
   align-items: flex-start;
   gap: 3rem;
+}
+
+/* ========== product-section Styles ==================== */
+.product-section {
+  padding: 0rem 20rem;
+  width: 100%;
+  margin-top: 10rem;
+}
+.product-section h2 {
+  margin-bottom: 5rem;
+  text-align: center;
+}
+.products {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4rem;
+}
+.products-card {
+  width: 25rem;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  background-color: #efefefef;
+  border-radius: 1rem;
+}
+.products-card img {
+  width: 70%;
+  border-radius: 50%;
+}
+.buy-btn {
+  padding: 1rem 2rem;
+  font-size: 1.4rem;
 }

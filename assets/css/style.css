@@ -20,7 +20,11 @@ html {
   font-size: 62.5%; /*10px*/
 }
 h1,
-h2,
+h2 {
+  font-size: 5rem;
+  font-weight: 800;
+  color: var(--color-primary);
+}
 h3 {
   font-size: 3rem;
   font-weight: 800;
@@ -28,13 +32,16 @@ h3 {
 }
 h4,
 h5 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: 600;
   color: var(--color-primary);
 }
 a {
   text-decoration: none;
   display: inline-block;
+}
+img {
+  width: 100%;
 }
 p,
 a,
@@ -55,7 +62,8 @@ button {
   border-radius: 1rem;
   border: none;
   background-color: var(--color-success);
-  color: var(--color-primary);
+  color: var(--color-white);
+  cursor: pointer;
 }
 
 /* ================== Header Style ==================== */
@@ -71,5 +79,26 @@ nav {
 nav ul {
   display: flex;
   align-items: center;
+  gap: 3rem;
+}
+
+/* ==================== Hero Section Style ==================== */
+.hero-section {
+  padding: 0rem 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80vh;
+}
+
+.hero-text-container,
+.hero-image-container {
+  width: 48%;
+}
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
   gap: 3rem;
 }

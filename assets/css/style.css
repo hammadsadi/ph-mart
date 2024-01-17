@@ -41,6 +41,11 @@ a,
 button {
   font-size: 1.8rem;
   color: var(--color-secondary);
+  line-height: 150%;
+  text-transform: capitalize;
+}
+a:hover {
+  color: var(--color-success);
 }
 ul li {
   list-style-type: none;
@@ -51,4 +56,20 @@ button {
   border: none;
   background-color: var(--color-success);
   color: var(--color-primary);
+}
+
+/* ================== Header Style ==================== */
+header {
+  padding: 0rem 20rem;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 12rem;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
 }
